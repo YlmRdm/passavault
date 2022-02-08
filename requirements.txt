@@ -15,6 +15,7 @@ pycparser==2.21
 pyinstaller==4.7
 pyinstaller-hooks-contrib==2021.4
 six==1.16.0
+sqlcipher3==0.4.5
 tabulate==0.8.9
 toml==0.10.2
 typing_extensions==4.0.1
