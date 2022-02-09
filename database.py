@@ -68,7 +68,7 @@ class Password(Model):
             # Check that an unhashed password matches one that has previously been hashed
             if bcrypt.checkpw(password, hashed):
                 print("The password entered is correct.")
-                db = SqlCipherDatabase('48cccca3bab2ad18832233ee8dff1b0b.db', passphrase=password_input)
+                db = SqlCipherDatabase('7hyuax9xsjxfec7mk3uxvm22ajzwa3ds.db', passphrase=password_input)
                 database = db
                 is_auth = True
             else:
